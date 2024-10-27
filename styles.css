@@ -1,0 +1,81 @@
+:root{
+
+--primary-color: rgb(47, 60, 126);
+--bg-color: rgb(251, 234, 235);
+}
+
+body{
+    margin: 0px;
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+}
+
+h2{
+    margin: 0px;
+    font-size: 3rem;
+}
+
+.main-hdr{
+    /* margin: 10px; */
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.main-hdr ul{
+    display: flex;
+    list-style: none;
+    margin-right: 20px;
+}
+
+.main-hdr li{
+    margin-left: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    border-bottom: 3px solid black;
+}
+
+.welcome-section{
+    height: 80vh;
+    width: 100vw;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .welcome-img{
+    background-color: brown;
+    padding-left: 50px;
+} */
+
+.hi-text h3{
+    font-size: 2rem;
+    margin: 0px;
+    margin: 0px;
+
+}
+
+.welcome-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+}
+
+.propic{
+    margin-left: 100px;
+}
+
+.download-btn{
+    height: 50px;
+    width: 200px;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--bg-color);
+}
