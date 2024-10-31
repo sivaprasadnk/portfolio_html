@@ -1,3 +1,5 @@
+
+
 :root {
 
     --primary-color: rgb(47, 60, 126);
@@ -19,6 +21,8 @@ body {
     margin: 0px;
     background-color: var(--bg-color);
     color: var(--primary-color);
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 100;
 }
 
 h2 {
@@ -76,16 +80,22 @@ h2 {
     align-items: center;
 }
 
-/* .welcome-img{
-    background-color: brown;
-    padding-left: 50px;
-} */
+.welcome-img{
+    /* background-color: brown; */
+    padding-left: 120px;
+}
 
 .hi-text h3 {
     font-size: 2rem;
+    font-weight: 500;
     margin: 0px;
     margin: 0px;
 
+}
+.summary h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 10px;
 }
 
 .welcome-container {
@@ -106,6 +116,8 @@ h2 {
     justify-content: center;
     align-items: center;
     color: var(--bg-color);
+    font-weight: 500;
+    font-size: 1.3rem;
 }
 
 .about-container {
@@ -118,13 +130,16 @@ h2 {
 .title {
     margin-left: 180px;
     margin-top: 50px;
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
+    font-size: 30px;
+    font-weight: 500;
 }
 
 .content {
     margin-left: 180px;
     margin-top: 80px;
-    font-size: 1.3rem;
+    font-size: 20px;
+    font-weight: 500;
 }
 
 .content ul {
