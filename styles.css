@@ -18,7 +18,7 @@ li span {
 }
 
 body {
-    margin: 0px;
+    margin: 0px 0.02vw;
     background-color: var(--bg-color);
     color: var(--primary-color);
     font-family: "Rajdhani", sans-serif;
@@ -33,6 +33,7 @@ h2 {
 .main-hdr {
     /* margin: 10px; */
     margin-left: 30px;
+    margin-top: 6px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -42,7 +43,7 @@ h2 {
 .main-hdr ul {
     display: flex;
     list-style: none;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 .main-hdr a {
@@ -51,10 +52,12 @@ h2 {
 }
 
 .main-hdr li {
-    margin-left: 40px;
-    padding-left: 10px;
-    padding-right: 10px;
+    margin-left: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-bottom: 5px;
+    font-weight: 600;
+    font-size: 17px;
 }
 
 .main-hdr li:hover {
@@ -72,17 +75,20 @@ h2 {
 
 .welcome-section {
     height: 80vh;
-    width: 100vw;
+    width: 90vw;
+    margin-left: 50px;
     /* background-color: aquamarine; */
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    padding-left: 0.1vw;
 }
 
 .welcome-img{
     /* background-color: brown; */
-    padding-left: 120px;
+    /* padding-left: 0px; */
+    margin-left: 0px;
 }
 
 .hi-text h3 {
@@ -106,6 +112,8 @@ h2 {
 
 .propic {
     margin-left: 100px;
+    width: 400px;
+    height: 400px;
 }
 
 .download-btn {
