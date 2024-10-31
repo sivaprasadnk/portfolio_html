@@ -247,6 +247,34 @@ h2 {
     font-size: 2rem;
 }
 
+/* .contact-img {
+    position: relative;
+    display: inline-block;
+    font-size: 48px; /* Adjust the size as needed */
+/* }  */
+
+
+.contact-img {
+    position: absolute;
+    transition: opacity 0.3s ease;
+}
+
+.contact-img .fa-envelope {
+    opacity: 1; /* Visible by default */
+}
+
+.contact-img .fa-envelope .fa-beat {
+    opacity: 0; /* Hidden by default */
+}
+
+.contact-img:hover .fa-envelope {
+    opacity: 0; /* Fade out the envelope */
+}
+
+.contact-img:hover .fa-envelope .fa-beat {
+    opacity: 1; /* Fade in the checkmark */
+}
+
 
 .contact-details{
     display: flex;
@@ -256,3 +284,32 @@ h2 {
     position: absolute;
     /* padding: 20px; */
 }
+
+.follow-me{
+    width: 500px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+}
+
+.follow-me h3{
+   font-weight: 500; 
+}
+
+.follow-me ul{
+    list-style: none;
+}
+
+.follow-me li{
+    position: absolute;
+    font-size: 1.5em;
+}
+.fb{
+    width: 100px;
+    height: 100px;
+    /* background-color: blueviolet; */
+}
+
+/* .fa-brands .fa-square-facebook{
+   font-size: 2em; 
+} */
