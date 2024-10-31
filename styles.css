@@ -206,3 +206,18 @@ h2 {
     padding-top: 2px;
     font-size: 1.1rem;
 }
+
+.contact-item{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    border: 1px solid var(--primary-color);
+    border-radius: 10px;
+    margin-right: 20px;
+    height: 265px;
+    width: 340px;
+}
+.contact-details{
+    margin-top: 135px;
+    padding: 20px;
+}
