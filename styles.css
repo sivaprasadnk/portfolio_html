@@ -39,6 +39,11 @@ h2 {
     justify-content: space-between;
 }
 
+.main-hdr h2{
+    font-family: 'Rubik Wet Paint', sans-serif;
+    font-weight: 400;
+}
+
 
 .main-hdr ul {
     display: flex;
@@ -210,11 +215,12 @@ h2 {
 
 .contact-item{
     display: flex;
-    justify-content: center;
+    /* justify-content: start; */
     /* align-items: center; */
     border: 1px solid var(--bg-color);
     border-radius: 10px;
     margin-right: 20px;
+    /* padding-top: 15px; */
     height: 265px;
     width: 340px;
     cursor: pointer;
@@ -232,8 +238,21 @@ h2 {
     /* height: 265px; */
     /* width: 340px; */
 }
+.contact-img{
+    display: flex;
+    justify-content: center;
+    width: inherit;
+    margin-top: 75px;
+    /* margin-left: 75px; */
+    font-size: 2rem;
+}
+
 
 .contact-details{
+    display: flex;
+    justify-content: center;
+    width: inherit;
     margin-top: 135px;
-    padding: 20px;
+    position: absolute;
+    /* padding: 20px; */
 }
