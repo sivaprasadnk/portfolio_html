@@ -30,12 +30,32 @@ h2{
     margin-right: 20px;
 }
 
+.main-hdr a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
 .main-hdr li{
     margin-left: 40px;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 5px;
-    border-bottom: 3px solid black;
+    /* color: #000; */
+    /* border-bottom: 3px solid transparent; */
+
+}
+
+.main-hdr li:hover{
+    border-bottom: 3px solid var(--primary-color);
+    cursor: pointer;
+
+}
+
+.active{
+    border-bottom: 3px solid var(--primary-color);
+    color: var(--primary-color);
+    cursor: pointer;
+
 }
 
 .welcome-section{
@@ -79,3 +99,24 @@ h2{
     align-items: center;
     color: var(--bg-color);
 }
+
+.about-container{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    text-align: justify;
+}
+
+.title, .content{
+    margin-left: 200px;
+    margin-top: 50px;
+    font-size: 1.5rem;
+}
+
+.content{
+    font-size: 1.3rem;
+}
+
+/* .content{
+
+} */
