@@ -1,7 +1,7 @@
 :root {
 
-    --primary-color: rgb(47, 60, 126);
-    --bg-color: rgb(251, 234, 235);
+    --primary-color: #2f3c7e;
+    --bg-color: #fbeaeb;
 }
 
 ul,
@@ -79,15 +79,15 @@ h2 {
 }
 
 .title {
-    margin-left: 180px;
-    margin-top: 50px;
+    margin-left: 170px;
+    margin-top: 70px;
     /* font-size: 1.5rem; */
     font-size: 30px;
     font-weight: 500;
 }
 
 .content {
-    margin-left: 180px;
+    margin-left: 170px;
     margin-top: 80px;
     font-size: 20px;
     font-weight: 500;
@@ -97,6 +97,7 @@ h2 {
     list-style: none;
     display: flex;
     padding: 0px;
+    flex-wrap: wrap;
 }
 
 .content li {
