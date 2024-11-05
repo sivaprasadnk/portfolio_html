@@ -66,13 +66,13 @@ h2 {
 }
 
 .main-hdr li:hover {
-    border-bottom: 3px solid var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
     cursor: pointer;
 
 }
 
 .active {
-    border-bottom: 3px solid var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
     color: var(--primary-color);
     cursor: pointer;
 
