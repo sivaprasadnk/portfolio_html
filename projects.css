@@ -9,6 +9,7 @@
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 .project-item ul {
@@ -63,3 +64,20 @@
     padding-top: 2px;
     font-size: 19px;
 }
+
+.view-btn{
+    width: 76px;
+    text-decoration: none;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    bottom: 10px;
+    right: 10px;
+    border: 1px solid var(--primary-color);
+    padding: 4px 14px;
+    border-radius: 8px;
+    font-size: 18px;
+    color: var(--primary-color);
+    /* top: 250px; */
+}
+
