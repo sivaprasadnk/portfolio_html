@@ -1,46 +1,30 @@
-
-
-.welcome-section {
-    height: 80vh;
-    width: 90vw;
-    margin-left: 50px;
-    /* background-color: aquamarine; */
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    padding-left: 0.1vw;
+.welcome-section-mobile {
+    display: none;
 }
 
-.welcome-img{
-    /* background-color: brown; */
-    /* padding-left: 0px; */
-    margin-left: 0px;
+.welcome-section {
+    display: none;
+}
+
+
+
+.propic {
+    margin-left: 100px;
+    width: 400px;
+    height: 400px;
 }
 
 .hi-text h3 {
     font-size: 2rem;
     font-weight: 500;
     margin: 0px;
-    margin: 0px;
 
 }
+
 .summary h3 {
     font-size: 1.2rem;
     font-weight: 600;
     margin-top: 10px;
-}
-
-.welcome-container {
-    display: flex;
-    flex-direction: column;
-    margin-left: 150px;
-}
-
-.propic {
-    margin-left: 100px;
-    width: 400px;
-    height: 400px;
 }
 
 .download-btn {
@@ -53,40 +37,105 @@
     color: var(--bg-color);
     font-weight: 500;
     font-size: 1.3rem;
+    cursor: pointer;
 }
 
-.follow-me{
-    width: 500px;
-    height: 150px;
+.follow-me {
     display: flex;
     flex-direction: row;
 }
 
-.follow-me h3{
-   font-weight: 500; 
+.follow-me h3 {
+    font-weight: 500;
 }
 
-.follow-me ul{
+.follow-me ul {
     list-style: none;
     margin-top: 18px;
     margin-left: 20px;
 
 }
 
-.follow-me li{
+.follow-me li {
     position: relative;
     display: inline;
-    font-size: 1.5em;
     margin: 0;
     margin-right: 10px;
     font-size: 1.3rem;
-}
-.fb{
-    width: 100px;
-    height: 100px;
-    /* background-color: blueviolet; */
+    cursor: pointer;
+    transition: transform 0.3s ease;
 }
 
-/* .fa-brands .fa-square-facebook{
-   font-size: 2em; 
-} */
+.follow-me li:hover i {
+    position: relative;
+    display: inline;
+    margin: 0;
+    margin-right: 10px;
+    font-size: 1.3rem;
+    transform: scale(1.3);
+    color: red;
+    cursor: pointer;
+}
+
+
+
+@media(max-width:820px) {
+
+    .welcome-section-mobile {
+        margin-left: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .propic {
+        margin-top: 100px;
+        margin-left: 0;
+        width: 100px;
+    }
+
+}
+
+@media(min-width:820px) {
+
+    .welcome-section {
+        height: 80vh;
+        /* width: 90vw; */
+        /* margin-left: 50px; */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding-left: 0.1vw;
+    }
+
+    .welcome-img {
+        margin-left: 0px;
+    }
+
+    .welcome-container {
+        display: flex;
+        flex-direction: column;
+        /* margin-left: 200px; */
+    }
+
+
+    .hi-text h3 {
+        margin-left: 50px;
+
+    }
+
+    .summary h3 {
+        margin-left: 50px;
+
+    }
+
+    .download-btn {
+        margin-left: 50px;
+    }
+
+    .follow-me {
+        margin-left: 50px;
+    }
+
+
+}
