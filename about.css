@@ -1,8 +1,12 @@
-
-
 .about-container {
     display: flex;
     flex-direction: column;
     width: 800px;
     text-align: justify;
+}
+
+@media(max-width: 820px) {
+    .about-container{
+        width: 90%;
+    }
 }
